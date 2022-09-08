@@ -1,0 +1,115 @@
+<html>
+<title> All webobjects MyTitle Sumanth</title>
+<head>
+<script type="text/javascript">
+	function timeMsg()
+	{
+	 var t=setTimeout("alertMsg()",4000);
+	}
+	function alertMsg()
+	{
+	 var name=prompt("Please enter Employee name","Harry Potter default val");
+	}
+	function multipleAlertsMsg()
+	{
+	var name=prompt("Please enter Employee name","Harry Potter default val");
+	alert("Order No : 101 created successfully");	
+	}
+</script>
+</head>
+
+<form>
+
+<h1 align="center">  My Web Page  </h1>
+First name: <input type="text" value="default value Ram " name="firstname" id="idfirst" class="firstclass" width="55">
+Last name: <input id="idfirst"  type="text" name="lastname" class="firstclass">
+<br>
+Test field: <input id="testid3456"  type="text" name="HUL-testname-101" class="firstclass">
+
+Password: <input id="idpwd" type="password" name="pwd"> <br>
+
+<input id="maleid" type="radio" name="sex" value="male"> Male
+<input  id="femaleid" type="radio" name="sex" value="female"> Female  <br>
+
+<input id="bikeid"  type="checkbox" name="bike" value="Bike" class="Vehicle">I have a bike
+<input type="checkbox" id="carid" name="bike" value="Car">I have a car <br>
+<input type="checkbox" id="bikeid" name="bike" value="Car"  disabled>I have an aeroplane <br>
+
+Ename :<input type="text" id="bikeid" name="myname"  disabled>Testbox is disabled  <br>
+
+<input id="MyButton"  type="submit" value="My Submit">
+<button name="Login"> Login </button>
+
+
+	<select name="cars"  id="idfirst">
+		<option  value="maruthival">Maruthi</option>
+		<option selected ="selected" value="Swiftvdival">Swiftvdi</option>
+		<option value="Mercedesval">Mercedes</option>
+		<option value="audival">Audi</option>
+		<option> Kia </option>
+		<option> BMW </option>
+	</select>
+
+	<select name="bikes" id="bikesid">
+		<option value="Hondaval">Honda</option>
+		<option selected value="suzukival">  suzuki	</option>
+		<option  selected value="yamahaval"> yamaha	</option>
+		<option  selected value="Heroval">    Hero  	</option>
+		
+	</select>
+
+
+
+Multi select::
+<select name="MultiCars" multiple width="1050" height="800">
+  <option value="Maruthival">Maruthi</option>
+  <option value="Swiftvdival">Swiftvdi</option>
+  <option value="Benzval" selected>Benz</option>
+  <option value="audival">Audi</option>
+  <option value="BMWval">BMW</option>
+</select>
+<textarea rows="3" cols="20">
+The cat was playing in the garden.
+</textarea>
+
+</form>
+
+<a href="D:\Practise\qtp practise\web apps\WebTableAll.html">  ToolTip Sumanth </a> <br>
+<a href="D:Practise\qtp practise\web apps\tooltip.html">  ToolTip Link  </a>  <br>
+<a href="D:\Practise\qtp practise\web appsweb apps\WebTableAll.html"> WebTableAll Link </a> <br>
+<a href="D:\Practise\qtp practise\web apps\Login Form.html" target="_blank"> Login Form Link</a>
+
+<a href="https://www.google.com/">  Click My Google </a>
+
+<input type="button" id="alertid1" value="Display alert box in 3 seconds" onClick="timeMsg()" />
+<input type="button" id="alertid2" value="Display multipleAlertsMsg" onClick="multipleAlertsMsg()" />
+<br>
+
+
+
+<p>Image-link: Still a link, but with no boders:
+<a href="default.asp"> <img style="border:0;" src="D:\Practise\qtp practise\web appsweb apps\Images\Penguins.jpg" alt="HTML tutorial" width="40" height="70"></a></p>
+
+<button id="loginid" onClick='window.open("Login Form.html","loginformwindowname",
+"width=500,height=500");'> open loginform </button>
+
+
+<button id="allid" onClick='window.open("WebTableAll.html","allobjectswindowname",
+"width=500,height=500");'>WebTableAll </button> 
+
+<button id="simpleid" onClick='window.open("Simple ALL objects.html","HelpWindow",
+"width=500,height=500");'>Simple ALL objects</button> <br> <br>
+
+Upload Files <input type="text" name="uploadname"> <button > Upload</button>  <br>
+<input type="file" id="fileid" name="filename"> 
+
+Download Files:
+
+<a href="Penguins.jpg" download> Download link </a>
+  
+</a>
+
+</html>
+
+
+
